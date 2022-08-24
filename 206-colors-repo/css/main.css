@@ -60,11 +60,11 @@ footer {
 
 @media (min-width: 768px) {
   header {
-    background-color: ;
+    background-color:forestgreen;
   }
-
   #column-1 {
-    background-color: Bisque;
+    background-color: pink;
+    width: 100%;
   }
 
   #column-2 {
@@ -73,35 +73,44 @@ footer {
 
   #column-3 {
     background-color: black;
+    width: 100%;
   }
 
   footer {
-    background-color: ;
+    background-color: forestgreen;
   }
-  
+  .col-3{
+    width: 50%;
+  }
 }
 
 
 /*---------- Desktops ----------*/
-@media (min-width: 1200px) {
+@media (min-width: 1200px)  {
   header {
-    background-color: ;
+    background-color:black; ;
   }
+  
 
   #column-1 {
-    background-color: ;
+    background-color: red; 
+    width: 100%;
   }
 
   #column-2 {
-    background-color: ;
+    background-color: yellow;
+    
   }
 
   #column-3 {
-    background-color: ;
+    background-color:blue; ;
   }
 
   footer {
-    background-color: ;
+    background-color: green;;
+  }
+  .col-3{
+    width: 33.3%;
   }
    
 }
